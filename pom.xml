@@ -10,7 +10,11 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>api</module>
+        <module>hal-web</module>
+        <module>hal-common</module>
+        <module>hal-dao</module>
+        <module>hal-entity</module>
+        <module>hal-service</module>
     </modules>
 
 </project>

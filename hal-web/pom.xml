@@ -8,11 +8,11 @@
         <version>2.4.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sophie</groupId>
-    <artifactId>api</artifactId>
+     <groupId>com.sophie</groupId>
+    <artifactId>hal-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>api</name>
-    <description>api</description>
+    <name>hal-web</name>
+    <description>hal-web</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -20,6 +20,26 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.sophie</groupId>
+            <artifactId>hal-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sophie</groupId>
+            <artifactId>hal-dao</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sophie</groupId>
+            <artifactId>hal-entity</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sophie</groupId>
+            <artifactId>hal-service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
